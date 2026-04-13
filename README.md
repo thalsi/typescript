@@ -1,124 +1,213 @@
-# Typescript
-
-- TypeScript is a programming language developed and maintained by Microsoft.
-- It is a typed superset of JavaScript that compiles to plain JavaScript.
-- TypeScript is known as Object oriented programming language whereas JavaScript is a scripting language.
-- TypeScript gives support for modules whereas JavaScript does not support modules.
-- TypeScript has Interface but JavaScript does not have Interface.
-
-## Javascpit and Typescrpit
-
-- Typescpit is a Oject-Oriented language
-- Typescpit has a featrue know as Static typing
-- Typescpit gives support for modules
-- Typescpit support optional parameter
-- Javascpit a scrping language
-- Javascpit does not have static typing
-- Javascpit does not support modules
-- Javascpit does not support optional parameter
-
-## benefits of TypeScpit
-
-- fast, simple and easy to lrean an run any boswer or javascpit engine
-- simler to javascpit
-- typescpit code extenting javascpit code
-
-## tsc
-
-- tsc typeScrpit_FileName.ts
-- node javaScrpit_fileName.ts
-
-## 1. Annotations
-
-- TypeScript is a typed language
-- we can specify the type of the variables
-- using :Type after the name of the variable
-
-## 2. Variable
-
-1. var
-   - javascrpit same rules
-2. let
-   - let is block-scpo
-3. const
-   - must be declared and initailzed in single satement
-   - value cannot changed
-   - let scpoing rule
-
-## 3. data types
-
-- The data type classification are Two type
-  1.  Built-in Datatypes (Primitive types)
-      1. number
-      2. string
-      3. boolean
-      4. null - null is an assignment value (typeof object)
-      5. undefind - undefind not been assignment value (typeof undefind)
-      6. void
-      7. symbol
-  2.  User-defined Data Types (Object types)
-      1. array - we can store multiple value in single varbile
-      2. functions
-      3. class
-      4. Touple
-      5. Enum
-      6. interface
-
-## 3.Loops
-
-1.  while
-2.  do..while
-3.  for
-4.  for..in
-5.  for..of
-6.  forEach()
-
-## 4. Function
-
-- Function is a block of code
-- JavaScript supports overriding not overloading
-- Method Overloading and Method Overriding support in typescpit
-
-1. Named function
-2. Nameless(anonymous) function
-   - does not have any name
-   1. Immediate execution of a function
-   2. object inside function of value in javascript
-3. Arrow function
-   - ES6 introduced a new and shorter way of declaring an anonymous function
-   1. single statement returns a value, remove brackets and return keyword:
-   2. multipe statement returns a value, apply brackes and return keyword:
-   3. Arrow Function as an Expression
-   4. object inside function of value in javascript
-4. Callback function
-   - A callback function is a function passed into another function as an argument
-   - Benefit of Callback Function
-     - wait for the result of a previous function call and then execute another function call.
-   - examples :- filter(),sort()...
-
-## 5. Opps
-
-- Object oriented programming, or OOP for short, is a popular approach to solving problems in programming languages.
-- Easier debuging
-- Effective problem solving
-
-1. class & object
-   - Class is user defined blueprint.
-   1. Set of properties or methods
-   2. instantitate an object of a class
-   3. access propartys and methords
-   4. constructor
-   5. this
-   6. access Modifiers
-      - Public
-      - Private
-      - Protected
-   7. Static
-      - Static variables
-      - Static methods
-   8. readonly, optional parameters
-   9. super
-2. Inheritance
-3. Encapsulation
-4. Abstraction
-5. Polymorphism
+📘 TypeScript Full Course (Beginner → Advanced)
+🟢 Module 1: Introduction to TypeScript
+What is TypeScript
+Why use TypeScript
+TypeScript vs JavaScript
+Features of TypeScript
+How TypeScript works (Transpilation)
+Installing TypeScript
+Setting up development environment
+Running TypeScript files
+TypeScript compiler (tsc)
+🟢 Module 2: Basic Types
+Type annotations
+Type inference
+Primitive types
+number
+string
+boolean
+null
+undefined
+symbol
+bigint
+Special types
+any
+unknown
+void
+never
+🟢 Module 3: Variables & Declarations
+var vs let vs const
+Type annotations in variables
+Reassignment rules
+Constant assertions
+🟢 Module 4: Functions
+Function types
+Parameter types
+Return types
+Optional parameters
+Default parameters
+Rest parameters
+Function overloading
+Arrow functions with types
+Callback functions
+🟢 Module 5: Objects & Arrays
+Object types
+Nested objects
+Array types
+Readonly arrays
+Tuple types
+Destructuring with types
+🟢 Module 6: Type Aliases & Interfaces
+Type aliases
+Interface basics
+Interface vs Type
+Extending interfaces
+Merging interfaces
+Readonly properties
+Optional properties
+Index signatures
+🟡 Module 7: Advanced Types
+Union types
+Intersection types
+Literal types
+Type narrowing
+Type guards
+Discriminated unions
+Assertion (as)
+Non-null assertion
+Type compatibility
+🟡 Module 8: Enums
+Numeric enums
+String enums
+Heterogeneous enums
+Const enums
+Enum vs union
+🟡 Module 9: Generics
+Introduction to generics
+Generic functions
+Generic interfaces
+Generic classes
+Constraints
+Default generic types
+Keyof with generics
+🟡 Module 10: Classes & OOP
+Class basics
+Constructors
+Access modifiers
+public
+private
+protected
+readonly properties
+Static members
+Inheritance
+Method overriding
+Abstract classes
+Getters & setters
+Implements interface
+🟡 Module 11: Modules & Namespaces
+ES Modules
+Import / Export
+Default export
+Namespace basics
+Module resolution
+Barrel files
+🟠 Module 12: TypeScript Compiler (tsconfig)
+tsconfig.json basics
+Compiler options
+Target
+Module
+Strict mode
+RootDir / OutDir
+Source maps
+Incremental builds
+Path mapping
+🟠 Module 13: DOM & Browser Types
+DOM typing
+Event handling types
+Type casting in DOM
+Working with forms
+Fetch API typing
+🟠 Module 14: Error Handling
+try / catch typing
+unknown in catch
+Custom error types
+🟠 Module 15: Utility Types
+Partial
+Required
+Readonly
+Pick
+Omit
+Record
+Exclude
+Extract
+NonNullable
+ReturnType
+Parameters
+InstanceType
+🔵 Module 16: Advanced Generics & Type Manipulation
+Conditional types
+Mapped types
+Recursive types
+Template literal types
+Key remapping
+Infer keyword
+🔵 Module 17: Declaration Files
+.d.ts files
+Writing custom typings
+Third-party typings
+DefinitelyTyped
+🔵 Module 18: TypeScript with JavaScript
+JSDoc typing
+Migrating JS to TS
+AllowJs / CheckJs
+🔵 Module 19: TypeScript with Frameworks
+TypeScript with Angular
+TypeScript with React
+TypeScript with Node.js
+🔵 Module 20: TypeScript Best Practices
+Strict typing
+Avoiding any
+Code organization
+Naming conventions
+Reusable types
+DRY principles
+🔵 Module 21: Performance & Optimization
+Compiler performance
+Type checking optimization
+Project references
+🔵 Module 22: Testing with TypeScript
+Type-safe testing
+Jest with TypeScript
+Mocking types
+🔵 Module 23: Build Tools & Integration
+Webpack with TypeScript
+Vite with TypeScript
+Babel with TypeScript
+ESLint + TypeScript
+Prettier setup
+🔵 Module 24: Advanced Patterns
+Dependency Injection typing
+Factory patterns
+Singleton pattern
+Repository pattern
+DTO pattern
+🔵 Module 25: Real-World Usage
+API typing
+Environment typing
+Large-scale project structure
+Monorepo with TypeScript
+🔵 Module 26: Debugging TypeScript
+Source maps debugging
+Debugging in VS Code
+Common type errors
+🟣 Module 27: Expert Level Concepts
+Deep type inference
+Advanced type composition
+Type-level programming
+Schema validation typing
+Runtime vs compile-time
+🟣 Module 28: Interview Preparation
+Common interview questions
+Practical scenarios
+Debugging questions
+System design with TypeScript
+🟣 Module 29: Capstone Projects
+CRUD application typing
+Form validation system
+API service layer
+State management typing
+🟣 Module 30: TypeScript Ecosystem
+Popular libraries
+Tooling ecosystem
+Community best practices
+Future of TypeScript
