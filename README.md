@@ -1,5 +1,6 @@
-📘 TypeScript Full Course (Beginner → Advanced)
-🟢 Module 1: Introduction to TypeScript
+# 📘 TypeScript Full Course (Beginner → Advanced)
+
+## 🟢 Module 1: Introduction to TypeScript
 What is TypeScript
 Why use TypeScript
 TypeScript vs JavaScript
@@ -9,7 +10,8 @@ Installing TypeScript
 Setting up development environment
 Running TypeScript files
 TypeScript compiler (tsc)
-🟢 Module 2: Basic Types
+
+## 🟢 Module 2: Basic Types
 Type annotations
 Type inference
 Primitive types
@@ -25,7 +27,8 @@ any
 unknown
 void
 never
-🟢 Module 3: Variables & Declarations
+
+## 🟢 Module 3: Variables & Declarations
 var vs let vs const
 Type annotations in variables
 Reassignment rules
