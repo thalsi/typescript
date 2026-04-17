@@ -1,3 +1,10 @@
 "use strict";
-console.log("Hello, TypeScript 6.0.2 with ESNext modules and ES2024 target!");
-console.log("TypeScript module resolution strategy: Bundler 123");
+const user = {
+    "name": "John Doe",
+    "age": 30,
+    "email": "john.doe@example.com"
+};
+console.log(`User Information:`);
+console.log(`Name: ${user.name}`);
+// user.name = "Alimon CK";
+// console.log(`Name: ${user.name}`);
