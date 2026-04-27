@@ -101,4 +101,12 @@ const userMe = {
 function updateUser(object, key, value) {
     console.log(`Updating user  to ${value}`);
     object[key] = value;
+    return object;
 }
+console.log('with Generic and keyof operator..');
+console.log(userMe);
+updateUser(userMe, 'name', 'Ali Ahmed');
+updateUser(userMe, 'age', 26);
+updateUser(userMe, 'city', 'Kochi, Kerala');
+console.log(userMe);
+console.log('with Generic and keyof operator in Interface..', updateUser(userMe, 'name', 'Jane Doe'));
