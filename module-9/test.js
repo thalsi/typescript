@@ -92,3 +92,13 @@ showLenght({ length: 10 });
 showLenght({ length: 20, name: 'John Doe' }); // This will work because it has a length property
 // showLenght({ name: 'John Doe' }); // This will cause an error because it does not have a length property
 // showLenght(12345); // This will cause an error because it does not have a length property
+const userMe = {
+    name: "Ali",
+    age: 25,
+    city: "Kochi"
+};
+// console.log(PersonKeys); // This will cause an error because keyof is not a valid operator in TypeScript
+function updateUser(object, key, value) {
+    console.log(`Updating user  to ${value}`);
+    object[key] = value;
+}
