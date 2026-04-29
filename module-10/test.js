@@ -36,3 +36,45 @@ class SeniorDeveloper extends Developer {
 }
 const seniorDeveloper = new SeniorDeveloper();
 seniorDeveloper.showExperience(); // Output: 5
+class Test {
+    static count = 100;
+    static incrementCount() {
+        this.count++;
+    }
+}
+console.log(Test.count); // Output: 100
+Test.incrementCount();
+console.log(Test.count); // Output: 101
+class Animal {
+    sonud() {
+        console.log('Animal makes a sound');
+    }
+}
+class Dog extends Animal {
+    sonud() {
+        console.log('Dog barks');
+    }
+}
+const dog = new Dog();
+dog.sonud(); // Output: Dog barks
+class Airoplan {
+    start() {
+        console.log('Airoplan is starting');
+    }
+}
+class Boeing extends Airoplan {
+    sound() {
+        console.log('Boeing is flying');
+    }
+}
+const boeing = new Boeing();
+boeing.start(); // Output: Airoplan is starting
+boeing.sound(); // Output: Boeing is flying
+class Circle {
+    left = 10;
+    shape() {
+        console.log('This is a circle');
+    }
+}
+const circle = new Circle();
+console.log(circle.left);
